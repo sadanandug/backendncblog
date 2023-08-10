@@ -47,7 +47,7 @@
   "type": "module",
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
+   "dev": "nodemon ./src/app.ts",
     "build": "tsc -p .",
     "deploy": "npm run build && vercel deploy --prod"
   },
